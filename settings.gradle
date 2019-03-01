@@ -28,6 +28,9 @@ include ':extensions:transport:portability-transport-jettyrest'
 include ':extensions:security:portability-security-cleartext', ':extensions:security:portability-security-jwe'
 
 // Service Integrations - Auth and Transfer Extensions
+// Deezer
+include ':extensions:auth:portability-auth-deezer'
+include ':extensions:data-transfer:portability-data-transfer-deezer'
 // Flickr
 include ':extensions:auth:portability-auth-flickr'
 include ':extensions:data-transfer:portability-data-transfer-flickr'
@@ -37,6 +40,9 @@ include ':extensions:data-transfer:portability-data-transfer-google'
 // Instagram
 include ':extensions:auth:portability-auth-instagram'
 include ':extensions:data-transfer:portability-data-transfer-instagram'
+// Imgur
+include ':extensions:auth:portability-auth-imgur'
+include ':extensions:data-transfer:portability-data-transfer-imgur'
 // Mastodon
 //include ':extensions:auth:portability-auth-mastodon'
 include ':extensions:data-transfer:portability-data-transfer-mastodon'
@@ -52,6 +58,9 @@ include ':extensions:data-transfer:portability-data-transfer-smugmug'
 // Solid
 //include ':extensions:auth:portability-auth-solid'
 include ':extensions:data-transfer:portability-data-transfer-solid'
+// Spotify
+include ':extensions:auth:portability-auth-spotify'
+include ':extensions:data-transfer:portability-data-transfer-spotify'
 // Twitter
 include ':extensions:auth:portability-auth-twitter'
 include ':extensions:data-transfer:portability-data-transfer-twitter'
